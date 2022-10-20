@@ -12,7 +12,7 @@ Code of paper IID-MEF: A Multi-exposure Fusion Network Based on Intrinsic Image 
 Put multi-exposed images in the "dataset/test/demo/..."
 
 #### To produce the HDR images :<br>
-Run "CUDA_VISIBLE_DEVICES=X python evaluate_Fus.py" to implement MEF, obtaining HDR iamges.
+Run "CUDA_VISIBLE_DEVICES=X python evaluate_Fus.py" to implement MEF, obtaining HDR images.
 
 
 #### You can visualize the decomposed components by using our IIDNet:<br>
