@@ -9,7 +9,12 @@ Code of paper IID-MEF: A Multi-exposure Fusion Network Based on Intrinsic Image 
  
 
 #### Prepare data :<br>
-Put multi-exposed images in the "dataset/test/demo/..."
+- [ ] Put multi-exposed images in the "dataset/train/..." for training
+- [ ] Put multi-exposed images in the "dataset/test/demo/..." for testing
+
+#### Training :<br>
+- [ ] Run "CUDA_VISIBLE_DEVICES=X python IID_Net_train.py" to implement the intrinsic image  decomposition
+- [ ] Run "CUDA_VISIBLE_DEVICES=X python R/S/CFus_Net_train.py" to fuse the components.
 
 #### To produce the HDR images :<br>
 Run "CUDA_VISIBLE_DEVICES=X python evaluate_Fus.py" to implement MEF, obtaining HDR images.
