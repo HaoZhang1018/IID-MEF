@@ -23,3 +23,15 @@ Run "CUDA_VISIBLE_DEVICES=X python evaluate_Fus.py" to implement MEF, obtaining 
 #### You can visualize the decomposed components by using our IIDNet:<br>
 Run "CUDA_VISIBLE_DEVICES=X python evaluate_IID.py" to perform the decomposition.
 
+If this work is helpful to you, please cite it as：
+```
+@article{zhang2023iid,
+  title={IID-MEF: A multi-exposure fusion network based on intrinsic image decomposition},
+  author={Zhang, Hao and Ma, Jiayi},
+  journal={Information Fusion},
+  volume={95},
+  pages={326--340},
+  year={2023},
+  publisher={Elsevier}
+}
+```
